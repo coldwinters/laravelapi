@@ -202,6 +202,11 @@ return [
          */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
+        /**
+         * PERMISSION
+         */
+        Spatie\Permission\PermissionServiceProvider::class,
+
     ],
 
     /*
