@@ -187,6 +187,11 @@ return [
          */
         Barryvdh\Debugbar\ServiceProvider::class,
 
+        /**
+         * 跨域CORS
+         */
+        Barryvdh\Cors\ServiceProvider::class,
+
     ],
 
     /*
