@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class AdminsController extends Controller
+class PermissionController extends Controller
 {
     public function index()
     {
@@ -38,11 +38,6 @@ class AdminsController extends Controller
     }
 
     public function delete()
-    {
-
-    }
-
-    public function assignRole()
     {
 
     }

@@ -30,6 +30,8 @@ class Admin extends Authenticatable implements JWTSubject
         'password', 'remember_token',
     ];
 
+    protected $guard_name = 'admin';
+
     public function getJWTIdentifier()
     {
         return $this->getKey();
